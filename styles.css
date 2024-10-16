@@ -1,0 +1,29 @@
+body {
+    line-height: 3rem;
+    color: brown;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0px auto;
+    padding: 3rem 1rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+.image_container{
+    cursor: pointer;
+    text-align: center;
+}
+
+.image_container img {
+    width: 300px;
+    border-radius: 15px;
+}
+
+#toggle_highlight {
+    display: none;
+}
