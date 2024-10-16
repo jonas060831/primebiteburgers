@@ -4,9 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
+    
     <title>PrimeBite Burgers</title>
 </head>
 <body>
+
+    <div id="overlay"></div>
+
+    <aside>
+        <div
+         id="slideout_span"
+        >   
+            <!-- cheveron right assci -->
+            &rsaquo; 
+        </div>
+
+        <h5>Our Menu Highlights</h5>
+        <br>
+        <span>The Classic Cheeseburger:</span> A juicy beef patty with melted cheddar, fresh lettuce, tomato, and our signature sauce. <br>
+        
+        <span>The BBQ Beast:</span> A smoky BBQ burger topped with crispy onions, bacon, and melted gouda. <br>
+
+        <span>The Veggie Delight:</span> A delicious plant-based patty served with avocado, fresh greens, and house-made vegan mayo. <br>
+        
+        <span>Loaded Fries:</span> Hand-cut fries loaded with cheese, bacon, and your choice of toppings. <br>
+    </aside>
+
     <div
      class="container"
     >
@@ -19,36 +42,31 @@
          class="image_container"
         >
             <img
-             id='burger_image'
              src="./public/primebite_burger.png"
              alt=""
+             id="burger_image"
             />
         </div>
 
         <section>
-            <h3>What Makes Us Special</h3>
+            <h2>What Makes Us Special</h2>
             
-            <span>Fresh, Never Frozen:</span> We use only the freshest ingredients, sourced daily to ensure quality in every bite.
+            <article>
+                <p>
+                    <span>Fresh, Never Frozen:</span> We use only the freshest ingredients, sourced daily to ensure quality in every bite. <br>
             
-            <span>Handcrafted Patties:</span> Our burgers are made by hand with care, seasoned to perfection, and cooked to your preference.
+                    <span>Handcrafted Patties:</span> Our burgers are made by hand with care, seasoned to perfection, and cooked to your preference. <br>
             
-            <span>Unique Flavors:</span> From classic to bold, our menu offers a wide range of flavor-packed burgers, sides, and more.
-        </section>
-        
-        <aside id='toggle_highlight'>
-            <h5>Our Menu Highlights</h5>
-            
-            <span>The Classic Cheeseburger:</span> A juicy beef patty with melted cheddar, fresh lettuce, tomato, and our signature sauce. <br>
-            
-            <span>The BBQ Beast:</span> A smoky BBQ burger topped with crispy onions, bacon, and melted gouda. <br>
-
-            <span>The Veggie Delight:</span> A delicious plant-based patty served with avocado, fresh greens, and house-made vegan mayo. <br>
-            
-            <span>Loaded Fries:</span> Hand-cut fries loaded with cheese, bacon, and your choice of toppings. <br>
-        </aside>
-
+                    <span>Unique Flavors:</span> From classic to bold, our menu offers a wide range of flavor-packed burgers, sides, and more. <br>
+                </p>
+            </article>
+        </section> 
     </div>
 
     </div>
+
+    
+
+    <script src="./main.js" type="text/javascript"></script>
 </body>
 </html>

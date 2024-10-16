@@ -1,29 +1,80 @@
 body {
     line-height: 3rem;
+    width: 90vw;
     color: brown;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .container {
     width: 100%;
-    max-width: 900px;
+    max-width: 940px;
     margin: 0px auto;
     padding: 3rem 1rem;
+}
+
+#overlay {
+    background: linear-gradient(rgba(165, 42, 42, 0.313), rgba(0, 0, 0, 0.69));
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    transition: 0.3s;
+    cursor: pointer;
 }
 
 h1 {
     text-align: center;
 }
+h5 {
+    text-align: center;
+}
 
 .image_container{
-    cursor: pointer;
+    
     text-align: center;
 }
 
 .image_container img {
     width: 300px;
     border-radius: 15px;
+    cursor: pointer;
 }
 
-#toggle_highlight {
-    display: none;
+aside {
+   height: 100vh;
+   width: 400px;
+   position: fixed;
+   filter: drop-shadow(3px 4px 6px rgb(173, 173, 173));
+   right: -100%;
+   padding: 1rem;
+   transition: 0.3s;
+   top: 0;
+   box-shadow: 3px 4px 6px;
+   background-color: wheat;
+
+}
+
+.visible{
+   right: 0;
+ }
+
+span {
+    font-weight: 600;
+    font-size: large;
+    color: brown;
+}
+p {
+    color: rgba(165, 42, 42, 0.514);
+}
+
+#slideout_span {
+    font-size: xx-large;
+    text-align: center;
+    border-radius: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(186, 168, 136, 0.56);
+    cursor: pointer;
 }
